@@ -7,9 +7,9 @@ const App = () => {
   const buttonSumbit = { text: "click me" };
   const labelText = "Enter name:"
   const style = {backgroundColor: 'blue', color: 'white'};
-  
-  return <div>
-    <label class="label" for="name">
+
+  return <div>  
+    <label className="label" htmlFor="name">
       {labelText}
     </label>
     <input type="text" id="name"/>
