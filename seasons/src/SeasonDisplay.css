@@ -13,14 +13,13 @@
   justify-content: center;align-items: center;
   height: 100vh;
 }
-.season-display
-.winter{
+.season-display.winter{
   background-color: aliceblue;
 }
 .season-display.winter i{
   color: #78C5F7;
 }
-.summer{
+.season-display.summer{
   background-color: orange;
 }
 .season-display.summer i{
