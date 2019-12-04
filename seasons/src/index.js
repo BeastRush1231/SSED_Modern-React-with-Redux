@@ -22,7 +22,7 @@ class App extends React.Component {
       return <div>Error: {this.state.errorMessage}</div>  
     }
 
-    return <Loading />
+    return <Loading message="Please accept location request"/>
   }
 }
 
