@@ -19,7 +19,7 @@ class App extends React.Component {
     }
 
     if(!this.state.lat && this.state.errorMessage){
-      return <div>Error: {this.state.errorMessage}</div>  
+      return <Loading message="Error Message"/>
     }
 
     return <Loading message="Please accept location request"/>
