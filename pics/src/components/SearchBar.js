@@ -5,13 +5,13 @@ class SearchBar extends React.Component {
 
   onFormSubmit = (event) => {
     event.preventDefault();
-    this.props.onSubmit(this.state.term);
+    this.props.onSubmitApp(this.state.term);
   }
 
   render() {
     return (
       <div className={`ui segment`}>
-        <form className={`ui form`} onSubmit={ (event) => this.onFormSubmit(event) }>
+        <form className={`ui form`} onSubmit={this.onFormSubmit}>
           <div className={`field`}>
             <label htmlFor="search">Image Search</label>
             <input 
