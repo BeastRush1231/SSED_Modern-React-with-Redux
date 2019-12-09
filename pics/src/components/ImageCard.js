@@ -11,6 +11,7 @@ class ImageCard extends React.Component{
 
   componentDidMount() {
     console.log(this.imageRef);
+    console.log(this.imageRef.current.clientHeight);
   }
 
   render() {
