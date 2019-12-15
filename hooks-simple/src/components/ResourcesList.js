@@ -17,7 +17,7 @@ const ResourecesList = ({ resource }) => {
   
   return (
     <ul>
-      {resources.map( record => (
+      {resources.map( (record) => (
         <li key={record.id}>{record.title}</li>
       ))}
     </ul>
